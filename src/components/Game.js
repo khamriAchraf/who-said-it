@@ -3,7 +3,7 @@ import { getRandomQuote, people, quotes } from "@/data/quotes";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import Modal from "./Modal";
 
-const TIMER_DURATION = 999999; // seconds
+const TIMER_DURATION = 20; // seconds
 
 export default function Game() {
   const [currentQuote, setCurrentQuote] = useState(null);
